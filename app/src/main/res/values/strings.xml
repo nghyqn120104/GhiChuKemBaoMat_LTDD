@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nhat Ki</string>
+    <string name="minimum_password">Mật khẩu quá ngắn</string>
+    <string name="auth_failed">Tên đăng nhập hoặc mật khẩu sai vui lòng check lại</string>
+</resources>

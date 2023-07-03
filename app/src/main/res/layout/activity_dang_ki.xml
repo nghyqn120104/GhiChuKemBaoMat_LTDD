@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:background="#009688"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/picture"
+        android:background="@drawable/ic_blog_adobe_express"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"/>
+
+    <TextView
+        android:id="@+id/blog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GHI CHÚ"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/picture"
+        android:textSize="@dimen/_40sdp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/dangki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÍ TÀI KHOẢN"
+        android:textSize="@dimen/_30sdp"
+        android:layout_below="@id/blog"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_marginBottom="@dimen/_10sdp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_below="@id/dangki"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/bomtron"
+        android:backgroundTint="@color/white"
+        android:gravity="center|left"
+        android:hint="Nhập email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5.2dp" />
+
+
+
+    <EditText
+        android:id="@+id/mk"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_below="@id/email"
+        android:background="@drawable/bomtron"
+        android:backgroundTint="@color/white"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:inputType="textPassword"
+        android:hint="Nhập mật khẩu"
+        android:gravity="center|left"
+        android:paddingLeft="5.2dp"
+        android:layout_marginBottom="@dimen/_5sdp"/>
+
+
+
+    <Button
+        android:id="@+id/dki"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mk"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#4CAF50"
+        android:gravity="center"
+        android:text="ĐĂNG KÍ" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

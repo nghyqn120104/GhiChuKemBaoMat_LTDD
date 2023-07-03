@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:background="#BF03A9F4"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/blogpic"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_blog_adobe_express" />
+
+    <TextView
+        android:id="@+id/blogvtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blogpic"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:gravity="center"
+        android:text="GHI CHÚ"
+        android:textSize="@dimen/_32sdp" />
+
+    <TextView
+        android:id="@+id/DangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blogvtt"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#0C0105"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_below="@id/DangNhap"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:background="@drawable/bomtron"
+        android:backgroundTint="@color/white"
+        android:gravity="center|left"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="@dimen/_4sdp" />
+
+    <EditText
+        android:id="@+id/MatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_below="@id/email"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@drawable/bomtron"
+        android:backgroundTint="@color/white"
+        android:gravity="center|left"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/_4sdp" />
+
+    <Button
+        android:id="@+id/BTDN"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@id/MatKhau"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:backgroundTint="#009688"
+        android:gravity="center"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#ccc"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sQuenMK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BTDN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:backgroundTint="#AF751E"
+        android:text="Quên mật khẩu ?"
+        android:textColor="#FFF"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/sQuenMK">
+        <TextView
+            android:id="@+id/ChuaCoTK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sQuenMK"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#AF751E"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:text="Chưa đăng kí tài khoản ? -> "
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sDangki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sQuenMK"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:text="Đăng kí"
+            android:textColor="#FFF"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

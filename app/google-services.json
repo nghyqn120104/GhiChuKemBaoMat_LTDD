@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537139127197",
+    "project_id": "appdocsach-9881c",
+    "storage_bucket": "appdocsach-9881c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537139127197:android:077a59d151164734f00574",
+        "android_client_info": {
+          "package_name": "nguyenquyen.quyen.blogviettruyen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537139127197-46hple8ik24q1qhakd2fdutj3p57kovm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKcTevn3K0i9xw67Z70Qtv_FqxivUBYio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537139127197-46hple8ik24q1qhakd2fdutj3p57kovm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
